@@ -1,7 +1,7 @@
 from pymetro.pymetro import *
 
 w = Router([12])
-source, target = Station(13), Station(28)
+source, target = Station(1), Station(351)
 r = w.make_route(source, target)
 
 
